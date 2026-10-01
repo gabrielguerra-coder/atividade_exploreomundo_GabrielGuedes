@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato - Explore o Mundo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
     <link rel="stylesheet" href="folha_estilo.css">
 </head>
 <body>
     <header class="cabecalho">
         <div class="logo">
-            <i class="fa-solid fa-earth-americas" class="terra"></i>
+            <img src="exploreomundo.png" alt="" class="img">
             <span class="log">Explore o Mundo</span>
         </div>
         <div class="navegacao">
@@ -37,25 +38,33 @@
     </section>
     <main class="container">
         <div class="area-cadastro"></div>
-
+               
             <form action="/processar-cadastro" method="post" class="coluna-form">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" placeholder="Digite Seu Nome" required minlength="3" maxlength="50"><br><br>
-
-                <label for="senha">Senha de Acesso:</label>
-                <input type="password" id="senha" name="senha" placeholder="Digite Sua Senha" required minlength="8" maxlength="15"><br><br>
-
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required><br><br>
                 
-                <label for="data_nascimento">Telefone:</label>
-                <input type="integer" id="telefone"  name="telefone" placeholder="17-99676-7456" required minlength="11"><br><br>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Digite Seu Nome" required minlength="3" maxlength="50"><br><br>
 
-                <label for="data_nascimento">Data de Nascimento:</label>
-                <input type="date" id="data_nasc"  name="data_nascimento" min="1900-01-01"><br><br>
+                    <label for="senha">Senha de Acesso:</label><br>
+                    <input type="password" id="senha" name="senha" placeholder="Digite Sua Senha" required minlength="8" maxlength="15"><br><br>
 
-                <label for="nome">Lugar de interesse:</label>
-                <input type="text" id="lugar_de_interesse" name="lugar_de_interesse" placeholder="Digite o lugar" required minlength="3" maxlength="100"><br><br>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required><br><br>
+                
+                    <label for="data_nascimento">Telefone:</label><br>
+                    <input type="integer" id="telefone"  name="telefone" placeholder="17-99676-7456" required minlength="11"><br><br>
+
+                    <label for="data_nascimento">Data de Nascimento:</label><br>
+                    <input type="date" id="data_nasc"  name="data_nascimento" min="1900-01-01"><br><br>
+
+                    <label for="nome">Lugar de interesse:</label><br>
+                    <input type="text" id="lugar_de_interesse" name="lugar_de_interesse" placeholder="Digite o lugar" required minlength="3" maxlength="100"><br><br>
+
+                    <input type="checkbox" id="termos" name="termos" required>
+                    <label for="termos">Li e Aceito os Termos</label><br>
+
+                    <button type="submit" class="btn-enviar">Enviar  <i class="fa-solid fa-paper-plane"></i></button>
+                    <button type="reset" class="btn-limpar">Limpar tudo</button>
+                
             </form>
         </div>
 
