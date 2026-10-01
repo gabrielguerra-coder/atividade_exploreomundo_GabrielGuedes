@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #172546;
+    color: #110909;
+    line-height: 1.6;/*Espaçamento entre linhas*/
+}
+.cabecalho{
+    background-color: #0F172A;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px; 
+    border-bottom: 1px solid #2e4e9a;
+    box-shadow:0 1px 10px #2e4e9a;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.logo{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2e4e9a;
+}
+.log{
+    color: white;
+}
+.navegacao{
+    display: flex;
+    gap: 35px;
+}
+.menu-links a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 15px;
+    font-weight: 700;
+    transition: color 0.5s ease;
+}
+.redes-sociais{
+    gap: 14px;
+    display: flex;
+    border-left: 1px solid #878888;
+    padding-left: 25px;
+}
+.redes-sociais a{
+    color: aliceblue;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+.redes-sociais a :hover{
+    transform: scale(1.5);/*aplica efeito de zoom no elemento*/
+}
+.menu-links a:hover{
+    color: #2e4e9a;
+}
+.whatsapp :hover{
+    color: #25D366;
+    transition: color 0.3s ease;
+}
+.face :hover{
+    color: #1877F2;
+    transition: color 0.3s ease;
+}
+.insta :hover{
+    color: #E4405F;
+    transition: color 0.3s ease;
+}
+.twitter :hover{
+    color: rgb(139, 136, 136);
+    transition: color 0.3s ease;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 550px;
+}
+.imagem{
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.85);
+    object-fit: cover;
+}
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/*para centralizar a imagem*/
+    text-align: center;
+    color: white;
+
+}
+.texto h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-shadow: 0 3px 8px #2e4e9a;
+}
+.texto p{
+    font-size: 16px;
+    text-shadow: 0 5px 8px #2e4e9a;
+}
+.container{
+    max-width: 900px;
+    text-align: center;
+    margin: 20px auto;
+}
+.titulo{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+.subtitulo{
+    font-size: 17px;
+    color: white;
+    margin-bottom: 30px;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto-1{
+     max-width: 1100px;
+    height: 660px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+
+}
+.rodape{
+    background-color: #0F172A;
+    padding: 15px 40px;
+    font-size: 14px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 60px;
+    border-top: 1px solid #2e4e9a;
+    box-shadow:0 1px 10px #2e4e9a;
+}
+
+.foto-2{
+    max-width: 1100px;
+    height: 660px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+
+}
+.legenda{
+    padding: 20px;
+    display: flex;/*lado a lado*/
+    flex-direction: column;
+    flex-grow: 1;/*estica verticalmente e empurra o botão para base*/
+    background-color: #0F172A;
+    color: white;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+    align-items: center;
+    
+}
+.foto-3{
+    max-width: 1100px;
+    height: 660px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    align-items: right;
+    margin-bottom: -10px;
+
+}
+
+.legenda:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 10px 20px blanchedalmond;
+}
+
+.coluna-form{
+    flex: 1;
+    min-width: 320px;
+    height: 405px;
+    background-color: #0F172A;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #fcf8f8;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+.botao{
+    background-color: #0eeb51;
+    padding: 10px;
+    max-width: 200px;
+    text-align: center;
+    
+    
+}
+.botao:hover{
+    background-color: #afb2b8;
+    cursor: pointer;
+}
+.titulo-card{
+    font-size: 20px;
+}
