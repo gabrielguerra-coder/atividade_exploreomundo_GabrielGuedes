@@ -243,8 +243,8 @@ body{
     border-radius: 27px;
 }
 .btn-enviar{
-    background-color: #ebe2e2;
-    color: #063ef8;
+    background-color: #14d611;
+    color: white;
     border: none;
     padding: 12px 24px;
     border-radius: 6px;
@@ -252,8 +252,8 @@ body{
     cursor: pointer;
 }
 .btn-limpar{
-    background-color: #ebe2e2;
-    color: #063ef8;
+    background-color: #e10b0b;
+    color: white;
     border: none;
     padding: 12px 24px;
     border-radius: 6px;
