@@ -200,18 +200,8 @@ body{
 
     
 }
-.botao{
-    background-color: #0eeb51;
-    padding: 10px;
-    max-width: 200px;
-    text-align: center;
-    
-    
-}
-.botao:hover{
-    background-color: #afb2b8;
-    cursor: pointer;
-}
+
+
 .titulo-card{
     font-size: 20px;
 }
@@ -250,6 +240,7 @@ body{
     border-radius: 6px;
     font-weight: bold;
     cursor: pointer;
+    
 }
 .btn-limpar{
     background-color: #e10b0b;
@@ -259,11 +250,27 @@ body{
     border-radius: 6px;
     font-weight: bold;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 10px;   
+    
 }
 .btn-enviar:hover{
     background-color: #000000;
+    
 }
 .btn-limpar:hover{
     background-color: #000000;
+}
+.botao-comprar{
+    display: block;
+    text-align: center;
+    background-color:  #0eeb51;
+    color: #f4efef;
+    padding: 12px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.botao-comprar:hover{
+    background-color: #8e8686;
 }
